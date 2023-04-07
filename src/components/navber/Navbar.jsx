@@ -3,6 +3,7 @@ import './Navbar.css'
 import { FaPlaneDeparture } from 'react-icons/fa'
 import { AiFillCloseCircle } from 'react-icons/ai'
 import { TbGridDots } from 'react-icons/tb'
+
 const Navbar = () => {
     const [active, setActive] = useState('navBar')
     const shownav = () => {
@@ -15,35 +16,35 @@ const Navbar = () => {
         <section className='navBarSection'>
             <header className='header flex'>
                 <div className='logoDiv'>
-                    <a href='#' className='logo flex'>
+                    <a href='https://www.facebook.com/DSno01' className='logo flex'>
                         <h1> <FaPlaneDeparture className="icon" /> Travel.</h1>
                     </a>
                 </div>
                 <div className={active}>
                     <ul className='navLists flex'>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Home</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Home</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Packages</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Packages</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Shop</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Shop</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Abouts</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Abouts</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Pages</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Pages</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>News</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>News</a>
                         </li>
                         <li className='navItem'>
-                            <a href='#' className='navLink'>Contacts</a>
+                            <a href='https://www.facebook.com/DSno01' className='navLink'>Contacts</a>
                         </li>
                         <button className='btn'>
-                            <a href='#'>
+                            <a href='https://www.facebook.com/DSno01'>
                                 BOOK NOW
                             </a>
                         </button>
@@ -56,6 +57,7 @@ const Navbar = () => {
                     <TbGridDots className='icon' />
                 </div>
             </header>
+
         </section>
     )
 }

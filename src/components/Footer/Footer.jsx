@@ -38,7 +38,7 @@ const Footer = () => {
 
                     <div data-aos="fade-up" className='footerIntro flex'>
                         <div className='logoDiv'>
-                            <a href='#' className='logo flex'>
+                            <a href='https://www.facebook.com/DSno01' className='logo flex'>
                                 <FaPlaneDeparture className='icon' />  Travel.
                             </a>
                         </div>
